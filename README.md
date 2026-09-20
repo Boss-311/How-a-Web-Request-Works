@@ -1,6 +1,7 @@
 # How a Web Request Works
 
-![Web Request Flow](request-flow.png)
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fa28a623-0f7a-4a5b-9ef4-bdf2e76c52a5" />
 
 When I open a website like google.com, many steps happen in the background.
 
