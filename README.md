@@ -1,32 +1,21 @@
-How a Web Request Works
+# How a Web Request Works
 
-When I open a website like google.com, many simple steps happen in the background.
+![Web Request Flow](request-flow.png)
 
-First, I type google.com in my browser and press Enter. The browser is the Client, and it needs to find the server of the website.
+When I open a website like google.com, many steps happen in the background.
 
-The browser asks the DNS for the IP address of google.com. DNS works like a phone book. It changes the website name into an IP address that the computer can understand.
+First, I type google.com in my browser and press Enter. The browser is the Client.
 
-After getting the IP address, the request goes through my Internet / ISP until it reaches the Web Server.
+Then, the browser asks the DNS for the IP address of google.com. DNS changes the website name into an IP address.
 
-The web server receives the request and processes it. Then, the server sends a Response back to my browser. This response can contain HTML, CSS, JavaScript, images, and other files.
+After that, the request goes through the Internet and my ISP until it reaches the Web Server.
 
-Finally, the browser receives the response, reads the files, and displays the website on my screen
-///////
-Browser
-   ↓
-DNS
-   ↓
-IP Address
-   ↓
-Internet / ISP
-   ↓
-Web Server
-   ↓
-Response
-   ↓
-Browser
-   ↓
-Web Page
-///////
+The Web Server receives the request and processes it. Then, it sends a Response back to the browser.
 
-In simple words: I type the website → DNS finds the IP → the request goes to the server → the server sends a response → the browser shows the website.
+The response can contain HTML, CSS, JavaScript, and images.
+
+Finally, the browser receives the response and displays the website.
+
+In simple words:
+
+Browser → DNS → Internet → Web Server → Response → Browser → Web Page
